@@ -1,0 +1,29 @@
+input[type="text"] {
+    margin: 0 2px 0 38px;
+    background: #e2e8ee;
+    border: 1px solid #e2e8ee;
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+  }
+
+  :root{
+    --color-first:#a5d2f9;
+    --color-second:#07325a;
+    --color-third:#4f5b64;
+    --border: 1px solid #a1d0fa;
+  }
+  form{
+    margin-left: 100px;
+  }
+
+  .find-city {
+    background: var(--color-first);
+    border: var(--border);
+    border-radius: 4px;
+    color: var(--color-second);
+    width: fit-content;
+    box-shadow: rgba(75, 79, 202, 0.08) 0px 3px 3px 0;
+    cursor: pointer;
+  }
+

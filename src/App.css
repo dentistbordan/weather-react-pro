@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+h1 {
+  font-size: 170%;
+  color: var(--color-second);
+  margin: 10px 15px 0 5px;
+}
+p {
+  color: var(--color-third);
+  line-height: 0.2;
+  margin: 5px 15px 10px 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  padding: 15px 13px 0 13px;
+  font-size: medium;
+  margin: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label {
+  margin-left: 120px;
+  margin-bottom: 0;
+  color: var(--color-third);
+  font-size: smaller;
+  font-weight: bold;
+  opacity: 0.5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.now {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  border:var(--border);
+  background-color: var(--color-first);
+  border-radius: 4px;
+  box-shadow: rgba(75, 79, 202, 0.08) 0px 5px 5px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.card-city {
+  margin: 5px 35px 5 px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temperat {
+  margin: 5px 5px 10px 65px;
+}
+.weeks {
+  display: flex;
+  margin-bottom: 15px;
+}
+.day {
+  font-size: smaller;
+  margin:0 auto;
+  padding: 5px 5px 0 5px;
+  color: var(--color-second);
+}
+
+.weeks-temp {
+  text-align: center;
+  font-weight: bold;
+  background: var(--color-first);
+  border: var( --border);
+  border-radius: 20px;
+  color: #2780c4;
+  padding: 15px 13px;
+  margin: 0 auto;
+}
+.image {
+  font-size: 25px;
+ margin-top: 10px;
+  padding: 5px 5px 10px 13px;
+}
+.date-curent {
+  margin: 0 5px;
+  padding: 10px 0;
+  color: #4b545c;
+  font-weight: 500;
+}
+.current-temperature {
+  margin-left: auto;
+  display: inline-block;
+}
+.enter-temp {
+  display: block;
+}
+.it-is {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-size: small;
+}
+.image {
+  display: block;
+}
+.current-emoj {
+  margin: 0px -8px;
 }
