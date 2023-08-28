@@ -11,6 +11,17 @@ export default function App() {
      <Search defaultCity="Odesa" />
     </div>
       </header>
+      <div className="footer">
+      <a
+        rel="noreferrer"
+        href="https://github.com/dentistbordan/weather-react-pro"
+        target="_blank"
+        className="link"
+      >
+        Here is GitHub 
+      </a>
+       <span> </span>by Tetiana Bordan
+    </div>
     </div>
   );
 };

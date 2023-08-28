@@ -14,6 +14,7 @@ h5 {
   font-size: medium;
   margin: 4px;
 }
+
 .label {
   margin-left: 120px;
   margin-bottom: 0;
@@ -42,7 +43,7 @@ h5 {
 }
 .weeks {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .day {
   font-size: smaller;
@@ -89,4 +90,9 @@ h5 {
 }
 .current-emoj {
   margin: 0px -8px;
+}
+.footer{
+text-align: center;
+color: white;
+margin-top: -20px;
 }
