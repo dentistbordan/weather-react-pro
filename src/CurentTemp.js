@@ -8,7 +8,7 @@ import "./App.css";
 
 
 export default function CurentTemp(props){
-    
+   
     return(
         <div className="city-info">
         <h6 className="label">Your city</h6>

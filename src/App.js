@@ -9,7 +9,7 @@ export default function App() {
       <header className="App-header">
       <div className="head">
       <h6 className="executor">Weather by Tetiana Bordan</h6>
-     <Search defaultCity="Odesa" />
+     <Search defaultCity="Mukilteo" />
     </div>
       </header>
       <div className="footer">

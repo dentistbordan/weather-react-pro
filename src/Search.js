@@ -5,6 +5,7 @@ import CurentTemp from "./CurentTemp";
 import WeekTemp from "./WeekTemp"
 
 export default function Search(props){
+
     
     const [ready, setReady] = useState(false);
     const [weatherData, setWeatherData] = useState({});
@@ -55,7 +56,7 @@ export default function Search(props){
           autoFocus="on"
           onChahge={handleCitychange} />
         </div>
-        <div className="col p-0 ms-1">
+        <div className="col p-0">
         <input className="find-city btn btn-primary w-100" id="find-city" type="Submit" value="Search" />
         </div>
         <div className="col p-0">
