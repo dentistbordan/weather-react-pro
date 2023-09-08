@@ -1,12 +1,12 @@
 h1 {
-  font-size: 170%;
+  font-size: 35px;
   color: var(--color-second);
-  margin: 10px 15px 0 5px;
+  margin: 10px 15px 5px 5px;
 }
 p {
   color: var(--color-third);
   line-height: 0.2;
-  margin: 5px 15px 10px 5px;
+  margin: 5px 15px 0 5px;
 }
 
 h5 {
@@ -26,21 +26,15 @@ h5 {
 .now {
   display: flex;
   width: 300px;
-  height: 100px;
+  height: 110px;
   margin: 0 auto;
   border:var(--border);
   background-color: var(--color-first);
   border-radius: 4px;
   box-shadow: rgba(75, 79, 202, 0.08) 0px 5px 5px 0;
+  
 }
 
-.card-city {
-  margin: 5px 35px 5 px 15px;
-}
-
-.temperat {
-  margin: 5px 5px 10px 65px;
-}
 .weeks {
   display: flex;
   margin-bottom: 5px;
@@ -63,8 +57,8 @@ h5 {
   margin: 0 auto;
 }
 .image {
-  font-size: 25px;
- margin-top: 10px;
+  
+ margin-top: 3px;
   padding: 5px 5px 10px 13px;
 }
 .date-curent {
@@ -82,15 +76,13 @@ h5 {
 }
 .it-is {
   text-transform: capitalize;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: small;
 }
 .image {
   display: block;
 }
-.current-emoj {
-  margin: 0px -8px;
-}
+
 .footer{
 text-align: center;
 color: white;

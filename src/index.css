@@ -5,13 +5,15 @@
   --border: 1px solid #a1d0fa;
 }
 body {
-  margin: 0;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("./vecteezy_blue-sky-with-white-cloud-background_7950893_859.jpg");
+  background: url("./vecteezy_abstract-gradient-blue-light-background_10082273.jpg");
     padding-top: 60px;  
 }
 .head {

@@ -44,20 +44,29 @@ export default function Search(props){
       if (ready) {
 
     return(
-        <div className="row">
+        <div className="search-app">
         <form className="enter-city" onSubmit={handleSubmit} >
+          <div className="row">
+         <div className="col-6 p-0">
           <input id="enter-now"  
-          type="Search" 
+          type="search" 
           placeholder="Enter a city" 
+          className="form-control me-auto"
+          autoFocus="on"
           onChahge={handleCitychange} />
-        
-        <input className="find-city" id="find-city" type="Submit" value="Search" />
-        <input className="find-city" id ="local" type="Submit" value="Local" />
+        </div>
+        <div className="col p-0">
+        <input className="find-city btn btn-primary w-100" id="find-city" type="Submit" value="Search" />
+        </div>
+        <div className="col p-0">
+        <input className="find-city btn btn-primary w-100" id ="local" type="Submit" value="Local" />
+        </div>
+        </div>
         </form>
         <CurentTemp data={weatherData} />
         <WeekTemp coordinates={weatherData.coordinates} />
         
-      </div>
+        </div>
 
     );
 }else {
