@@ -19,7 +19,7 @@ export default function App() {
         className="link"
       >
         Here is GitHub 
-      </a>
+      </a>{" "}
        <span> </span>by Tetiana Bordan
     </div>
     </div>
