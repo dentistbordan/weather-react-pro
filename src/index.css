@@ -1,12 +1,11 @@
 :root{
-  --color-first:#a5d2f9;
+  --color-first: #a5d2f9;
   --color-second:#07325a;
   --color-third:#4f5b64;
   --border: 1px solid #a1d0fa;
 }
 body {
   display: block;
-  width: 100%;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

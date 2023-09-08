@@ -21,7 +21,7 @@ export default function App() {
       >
         Here is GitHub 
       </a>{" "}
-       <span> </span>by Tetiana Bordan
+       <span className="name-app"> by Tetiana Bordan</span>
     </div>
     </div>
     </div>

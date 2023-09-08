@@ -1,3 +1,4 @@
+
 h1 {
   font-size: 35px;
   color: var(--color-second);
@@ -29,7 +30,7 @@ h5 {
   height: 110px;
   margin: 0 auto;
   border:var(--border);
-  background-color: var(--color-first);
+  background-color: #a5d2f9;
   border-radius: 4px;
   box-shadow: rgba(75, 79, 202, 0.08) 0px 5px 5px 0;
   
@@ -49,7 +50,7 @@ h5 {
 .weeks-temp {
   text-align: center;
   font-weight: bold;
-  background: var(--color-first);
+  background: #a5d2f9;
   border: var( --border);
   border-radius: 20px;
   color: #2780c4;
@@ -90,4 +91,8 @@ margin-top: -20px;
 }
 .link{
   color: var(--color-second);
+}
+
+.name-app{
+  color: var(--color-third);
 }
