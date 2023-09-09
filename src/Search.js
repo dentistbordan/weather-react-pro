@@ -49,7 +49,7 @@ export default function Search(props){
           placeholder="Enter a city" 
           className="form-control me-auto"
           autoFocus="on"
-          onChahge={handleCityChange} />
+          onChange={handleCityChange} />
         </div>
         <div className="col p-0 ms-1">
         <input className="find-city btn btn-primary w-100" type="submit" value="Search" />
