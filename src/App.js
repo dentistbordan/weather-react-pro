@@ -6,12 +6,11 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <header className="App-header">
       <div className="head">
       <h6 className="executor">Weather by Tetiana Bordan</h6>
-     <Search defaultCity="Mukilteo" />
+     <Search defaultCity="Odesa" />
     </div>
-      </header>
+     
       <div className="footer">
       <a
         rel="noreferrer"
