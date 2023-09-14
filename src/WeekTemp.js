@@ -18,21 +18,18 @@ export default function WeekTemp(props){
   if (loaded) {
     return(
         <div className="weeks">
-        <div className="day">
-        <WeatherForecastDay data={forecast[0]} />
+          {forecast.map(function (dailyForecast, index){
+            if (index < 5){
+              return(
+                <div className="day" key={index}>
+        <WeatherForecastDay data={dailyForecast} />
      </div>
-        <div className="day">
-        <WeatherForecastDay data={forecast[1]} />
-        </div>
-        <div className="day">
-        <WeatherForecastDay data={forecast[2]} />
-        </div>
-        <div className="day">
-        <WeatherForecastDay data={forecast[3]} />
-        </div>
-        <div className="day">
-        <WeatherForecastDay data={forecast[4]} />
-        </div>
+              );
+            }else{
+              return null;
+            }
+          })}
+       
     </div>
     )
 }else {

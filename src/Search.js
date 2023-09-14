@@ -8,9 +8,9 @@ export default function Search(props){
 
     const [weatherData, setWeatherData] = useState({ ready: false });
     const [city, setCity] = useState(props.defaultCity);
-  
+
       function handleResponse(response) {
-       console.log(response.data);
+      
         setWeatherData({
           ready:true,
           temperature: response.data.main.temp,
@@ -32,12 +32,17 @@ export default function Search(props){
       function handleCityChange(event) {
         setCity(event.target.value);
       }
+
+    
+
+      
       function search() {
         let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
         let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
         axios.get(apiUrl).then(handleResponse);
       }
     
+     
       if (weatherData.ready) {
     return(
         <div className="search-app">
@@ -55,7 +60,7 @@ export default function Search(props){
         <input className="find-city btn btn-primary w-100" type="submit" value="Search" />
         </div>
         <div className="col p-0">
-        <input className="find-city btn btn-primary w-100" id ="local" type="Submit" value="Local" />
+        <input className="find-city btn btn-primary w-100"  type="Submit" value="Local" />
         </div>
         </div>
         </form>
